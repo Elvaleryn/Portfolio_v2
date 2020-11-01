@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="container flex justify-between items-center mx-auto mt-4 sm:px-4">
 			<span className="home">
 				<Link href="/">
-					<a className="highlighted-logo">
+					<a className="highlighted-logo text-white font-extrabold text-4xl">
 						EK
 					</a>
 				</Link>
@@ -17,10 +17,6 @@ const Navbar = () => {
 
 				.home {
 					@apply mr-auto;
-				}
-
-				.highlighted-logo {
-					@apply text-white font-extrabold text-4xl;
 				}
 
                 @media (max-width: 768px) {
