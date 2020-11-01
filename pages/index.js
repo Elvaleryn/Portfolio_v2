@@ -58,7 +58,7 @@ const Home = () => {
 			</div>
 			<style jsx>{`
 				.main {
-					@apply text-5xl flex items-center justify-center;
+					@apply text-5xl flex items-center justify-center mt-16;
 				}
 
 				.main {
