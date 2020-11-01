@@ -2,7 +2,7 @@ import React from 'react';
 
 const about = () => {
     return (
-			<div className="container">
+			<div className="container mt-5">
 				<h5 className="text-5xl">About me</h5>
 				<p className="mt-8 text-xl text-gray-500">
 					I am 26 years old self-taught web developer. My goal is to write clean

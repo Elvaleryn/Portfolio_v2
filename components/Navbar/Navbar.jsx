@@ -20,7 +20,7 @@ const Navbar = () => {
 				}
 
                 @media (max-width: 768px) {
-                    .nav {
+                    nav {
                         @apply px-4;
                     }
                 }

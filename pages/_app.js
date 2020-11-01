@@ -16,6 +16,13 @@ function MyApp({ Component, pageProps }) {
 				.container {
 					max-width: 1280px;
 				}
+
+                @media (max-width: 768px) {
+                    .container {
+                        @apply px-4;
+                    }
+                }
+
 			`}</style>
 		</>
 	);
