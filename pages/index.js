@@ -93,6 +93,10 @@ const Home = () => {
 					button {
 						@apply text-xl p-3;
 					}
+
+                    .container {
+                        @apply px-0;
+                    }
 				}
 			`}</style>
 		</div>
