@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 const Navbar = () => {
 	const router = useRouter();
-    console.log(router.pathname);
+
 	return (
 		<nav className="container flex justify-between items-center mx-auto mt-4 sm:px-4">
 			<span className="home">
