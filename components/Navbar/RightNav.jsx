@@ -7,7 +7,7 @@ const RightNav = ({open}) => {
 
 	return (
 		<>
-			<ul className="menu">
+			<ul className="menu pt-20">
 				<li>
 					<Link href="/experience">
 						<a className={router.pathname === '/experience' ? 'active' : ''}>
@@ -70,7 +70,8 @@ const RightNav = ({open}) => {
                             background-color: #000;
                             height: 100vh;
                             width: 100vw;
-                            margin-top: 100px;
+                            z-index: 100;
+                          {/*   margin-top: 100px; */}
 						}
 
                         .menu > li {

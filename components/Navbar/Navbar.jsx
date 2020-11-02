@@ -31,6 +31,10 @@ const Navbar = () => {
 					@apply mr-auto;
 				}
 
+                .home {
+                    z-index: 120;
+                }
+
 				@media (max-width: 768px) {
 					nav {
 						@apply px-4;

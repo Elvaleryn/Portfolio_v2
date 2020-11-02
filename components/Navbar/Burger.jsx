@@ -40,14 +40,14 @@ const Burger = () => {
 				svg[class*='icon-'] {
 					display: none;
 					fill: #fff;
-					z-index: 20;
+					z-index: 120;
 				}
 
 				@media (max-width: 768px) {
 					svg[class*='icon-'] {
 						display: block;
 						fill: #fff;
-						z-index: 20;
+						z-index: 120;
 					}
 				}
 			`}</style>
